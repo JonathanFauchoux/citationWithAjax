@@ -26,9 +26,8 @@ xhr.onload = function() {
 
 xhr.send(); //Call send
 let body = document.querySelector("body");
-
-let random1 = Math.floor(Math.random()* 3)+1 ;
 let randomBack = () =>{
+    let random1 = Math.floor(Math.random()* 3)+1 ;
     if (random1 == 1){
     body.style.background = url("https://images.ecosia.org/-3VZKOlzP83U-TTfrQ3Wve4tgJE=/0x390/smart/https%3A%2F%2Ft3.ftcdn.net%2Fjpg%2F00%2F57%2F54%2F34%2F240_F_57543467_z6bcsQ0jMSajakFxZyRsmZVYqJyk5yhu.jpg");
     } else if (random1 == 2){
