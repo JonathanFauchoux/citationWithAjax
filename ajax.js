@@ -27,18 +27,23 @@ xhr.onload = function() {
 xhr.send(); //Call send
 
 let randomBack = () =>{
-    let body = document.querySelector("#body");
+    let corp = document.getElementById("body");
     let random1 = Math.floor(Math.random()* 3)+1 ;
+    console.log(random1);
     if (random1 == 1){
-        body.style.background ='url("https://images.ecosia.org/-3VZKOlzP83U-TTfrQ3Wve4tgJE=/0x390/smart/https%3A%2F%2Ft3.ftcdn.net%2Fjpg%2F00%2F57%2F54%2F34%2F240_F_57543467_z6bcsQ0jMSajakFxZyRsmZVYqJyk5yhu.jpg")';
+        corp.style.backgroundImage ='url("https://images.unsplash.com/photo-1530020156-25ba55766787?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d29d140473c0d9bf4d78844f0ef844e3&auto=format&fit=crop&w=1051&q=80")';
+        corp.style.backgroundSize = "cover";
     } else if (random1 == 2){
-        body.style.background = 'url("https://images.ecosia.org/QGn330npsfb25hkfuydDiboFe9g=/0x390/smart/http%3A%2F%2Fst.gde-fon.com%2Fwallpapers_original%2F130243_zhyoltye_lepestki_zelyonoe_nasekomoe_glaza_fokus_f_1920x1285_www.Gde-Fon.com.jpg")';
+        
+        
+        corp.style.backgroundImage = 'url("https://images.unsplash.com/photo-1536894258192-522525d42bc7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f0f262d6db175f6c65244b173b7fca60&auto=format&fit=crop&w=1106&q=80")';
+        corp.style.backgroundSize = "cover";
     }else{
-        body.style.background ='url("https://wonderfulengineering.com/wp-content/uploads/2014/09/Green-Wallpaper-9.jpg")';
+        corp.style.backgroundImage ='url("https://wonderfulengineering.com/wp-content/uploads/2014/09/Green-Wallpaper-9.jpg")';
     }
 }
 randomBack();
-console.log(random1)
+
 
 
 
