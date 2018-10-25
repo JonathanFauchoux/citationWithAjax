@@ -1,3 +1,6 @@
+body{
+    background: url("https://wonderfulengineering.com/wp-content/uploads/2014/09/Green-Wallpaper-9.jpg") no-repeat center center fixed;
+}
 .bloc{
     display: flex;
     flex-flow: column nowrap;
@@ -29,10 +32,20 @@
             font-size: 0.9rem;
         }
     }
-    .btn{
-        width : 200px;
-        a{text-decoration: none;
+    a{
+        text-decoration: none;
+        text-align: center;
+        box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.6);
+        background: white;
+        border: 1px solid #BADA55;
+        border-radius: 10px;
+        width : 30%;
+        padding: 5px 0 5px 0;
+        
+        &:hover{
+            background: #DAFF63;
         }
-    }
+        }
+    
 }
    

@@ -1,3 +1,7 @@
+body {
+  background: url("https://wonderfulengineering.com/wp-content/uploads/2014/09/Green-Wallpaper-9.jpg") no-repeat center center fixed;
+}
+
 .bloc {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,11 +51,19 @@
   font-size: 0.9rem;
 }
 
-.bloc .btn {
-  width: 200px;
+.bloc a {
+  text-decoration: none;
+  text-align: center;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.6);
+  background: white;
+  border: 1px solid #BADA55;
+  border-radius: 10px;
+  width: 30%;
+  padding: 5px 0 5px 0;
 }
 
-.bloc .btn a {
-  text-decoration: none;
+.bloc a:hover {
+  background: #DAFF63;
 }
 /*# sourceMappingURL=style.css.map */
